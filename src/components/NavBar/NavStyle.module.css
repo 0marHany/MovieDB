@@ -1,0 +1,8 @@
+i{
+    transition: all 0.4s ;
+}
+i:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    color: #24baef;
+}

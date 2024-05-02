@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+:root {
+  --bg-color: #131722;
+  --main-font: "Montserrat Alternates", sans-serif;
+  --light-Bg-Color: #24baef;
+  --bg-Transparent: rgba(36, 186, 239, 0.6);
+  --font-Color: #fff;
+  --border-Color: #a8a8a83d;
+  --border-Hight: 1px;
+  --second-Font-Color: #949cb0;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: var(--main-font);
+  position: relative;
+}
+
+a {
+  color: var(--font-Color);
+  text-decoration: none;
+}
+
+p {
+  color: var(--second-Font-Color)
+}
+
+.bdr {
+  height: 1px;
+  background-color: var(--border-Color);
+}
+
+.voteBox {
+  background-color: var(--light-Bg-Color);
+}
+
+.offline {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* vh stands for viewport height, it makes the div take up the full height of the viewport */
+  
+
+  background-color: rgb(2, 2, 2);
+  z-index: 99999;
+
+
+}
+
+
+.offlineMessage {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%); /* This centers the element both horizontally and vertically */
+  font-size: 50px; /* Adjust font size as needed */
+  color: var(--font-Color); 
+  text-align: center;
+}
